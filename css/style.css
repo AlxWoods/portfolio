@@ -3,6 +3,8 @@
 :root   {
     --off-white: #ecf0f1;
     --green: #16a232;
+    --blue-green: #006F7A;
+    --blue: #2F4858;
     --background-dark: #24252A;
     --grey-border: rgb(90, 90, 90);
 }
@@ -24,7 +26,6 @@ body {
 header {
     position: fixed;
     width: 100%;
-    z-index: 999;
 }
 
 .nav-toggle {
@@ -196,3 +197,17 @@ header {
 }
 
 /** Body **/
+
+.whole {
+    /*width: 100%;
+    height: 50rem;
+    background-image: linear-gradient(35deg,var(--blue) 10%,  var(--green) 60%);*/
+    background-color: var(--off-white);
+    padding-top: 3em;
+}
+
+@media (min-width: 35em){
+    .whole {
+        padding-top: 5em;
+    }
+}
